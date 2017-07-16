@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace Net.Habashi.Uwp.Converter
+namespace Net.Habashi.Uwp.Converter.BoolToGridLengthConverter
 {
     /// <summary>
     /// Converter for Boolean-Values in GridLength Values.

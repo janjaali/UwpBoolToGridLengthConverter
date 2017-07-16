@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BoolToGridLengthConverter</id>
+    <version>1.0.0</version>
+    <title>BoolToGridLengthConverter</title>
+    <authors>Siyavash Habashi</authors>
+    <owners>Siyavash Habashi</owners>
+    <licenseUrl>https://mit-license.org/</licenseUrl>
+    <projectUrl>https://github.com/janjaali/UwpBoolToGridLengthConverter</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Boolean Value to GridLength Converter</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>UWP Converter GridLength</tags>
+  </metadata>
+  
+  <files>
+    <file src="bin\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.winmd" target="lib\uap10.0"/>
+    <file src="bin\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.xml" target="lib\uap10.0"/>
+    
+    <!--<file src="bin\ARM\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.dll" target="runtimes\win-arm\native"/>-->
+    <file src="bin\ARM\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.pri" target="runtimes\win-arm\native"/>
+    <file src="bin\ARM\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.pdb" target="runtimes\win-arm\native"/>
+    
+    <!--<file src="bin\x86\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.dll" target="runtimes\win-x86\native"/>-->
+    <file src="bin\x86\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.pri" target="runtimes\win-x86\native"/>
+    <file src="bin\x86\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.pdb" target="runtimes\win-x86\native"/>
+    
+    <!--<file src="bin\x64\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.dll" target="runtimes\win-x64\native"/>-->
+    <file src="bin\x64\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.pri" target="runtimes\win-x64\native"/>
+    <file src="bin\x64\Release\Net.Habashi.Uwp.Converter.BoolToGridLengthConverter.pdb" target="runtimes\win-x64\native"/>
+  </files>
+</package>
