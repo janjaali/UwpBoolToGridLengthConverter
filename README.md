@@ -22,7 +22,7 @@ UWP Converter for Boolean values in GridLength values
 ```xaml
 <Grid.RowDefinitions>
     <RowDefinition Height="{Binding IsAbleToCall, Converter={StaticResource BoolToGridLengthConverter}, ConverterParameter=1*}"/>
-</Grid.RowDef
+</Grid.RowDefinitions>
 ```
 
 # Development
